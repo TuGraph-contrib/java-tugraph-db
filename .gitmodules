@@ -1,3 +1,6 @@
 [submodule "tugraph-db"]
 	path = tugraph-db
 	url = https://github.com/yangyang233333/tugraph-db.git
+[submodule "3rd/tugraph-db"]
+	path = 3rd/tugraph-db
+	url = https://github.com/yangyang233333/tugraph-db.git
