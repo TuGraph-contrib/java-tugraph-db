@@ -56,7 +56,8 @@ public interface GraphDBFunc {
 
     boolean lgraph_api_graph_db_add_vertex_index(GraphDB graphdb, CharPointer label, CharPointer field, boolean is_unique, CharPointer2 errptr);
 
-    boolean lgraph_api_graph_db_add_edge_index(GraphDB graphdb, CharPointer label, CharPointer field, boolean is_unique, CharPointer2 errptr);
+    // boolean lgraph_api_graph_db_add_edge_index(GraphDB graphdb, CharPointer label, CharPointer field, boolean is_unique, CharPointer2 errptr);
+    boolean lgraph_api_graph_db_add_edge_index(GraphDB graphdb, CharPointer label, CharPointer field, boolean is_unique, boolean is_global, CharPointer2 errptr);
 
     boolean lgraph_api_graph_db_is_vertex_indexed(GraphDB graphdb, CharPointer label, CharPointer field, CharPointer2 errptr);
 
